@@ -1,0 +1,74 @@
+.header__input {
+    position: relative;
+    width: 540px;
+
+    input {
+        padding-left: 72px;
+        padding-right: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: -0.25px;
+        color: #494c6b;
+
+        border-radius: 5px;
+        box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+
+        & ::placeholder {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: -0.25px;
+            color: #9495a5;
+
+            /* Mobile XS */
+            @media (max-width: 599px) {
+                font-size: 15px;
+            }
+        }
+
+        /* Mobile XS */
+        @media (max-width: 599px) {
+            padding-left: 50px;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            font-size: 15px;
+            width: 290px;
+        }
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 570px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: auto;
+    }
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-top: 35px;
+    }
+}
+
+.active {
+    transform: scale(1);
+}

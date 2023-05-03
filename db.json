@@ -1,0 +1,41 @@
+{
+  "todo": [
+    {
+      "title": "Завтрак",
+      "status": "done",
+      "id": 1
+    },
+    {
+      "title": "Написать код",
+      "status": "done",
+      "id": 2
+    },
+    {
+      "title": "Обед",
+      "status": "done",
+      "id": 3
+    },
+    {
+      "title": "Написать код",
+      "status": "undone",
+      "id": 4
+    },
+    {
+      "title": "Прогуляться",
+      "status": "undone",
+      "id": 5
+    },
+    {
+      "title": "Сон",
+      "status": "undone",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "email": "todosLogin@mail.ru",
+      "password": "$2a$10$4ZYBmF2kVFpWUNBljt/wb.PVT0uBGCslH4PCPDcvTgwA7C5K04sfy",
+      "id": 3
+    }
+  ]
+}

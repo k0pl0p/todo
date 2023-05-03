@@ -1,0 +1,19 @@
+.todobar__status {
+    display: flex;
+    column-gap: 18px;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 700;
+    color: #9495a5;
+
+    &:hover {
+        color: #494c6b;
+        transition: all 0.2s ease-in;
+    }
+}
+
+.btn-active {
+    color: #3a7cfd;
+}

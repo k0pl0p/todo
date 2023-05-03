@@ -1,0 +1,17 @@
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 15px;
+    line-height: 1;
+    color: #fff;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 35px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 30px;
+    }
+}

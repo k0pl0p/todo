@@ -1,0 +1,35 @@
+.todobar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    background-color: #fff;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 35px 50px -15px rgba(44, 45, 62, 0.5);
+}
+
+.todobar__remainder {
+    font-size: 14px;
+    font-weight: 400;
+
+    span {
+        color: #9495A5;
+    }
+}
+
+.todobar__delete {
+    font-size: 14px;
+    font-weight: 400;
+
+    button {
+        color: #9495A5;
+
+        &:hover {
+            font-weight: 700;
+            color: #494C6B;
+            transition: all 0.2s ease-in;
+        }
+    }
+}
