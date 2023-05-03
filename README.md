@@ -15,5 +15,5 @@
 
 ## Данные для авторизации:
 
-Username - todosLogin@mail.ru
-Password - password
+- Username - todosLogin@mail.ru
+- Password - password
